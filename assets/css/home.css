@@ -1,0 +1,299 @@
+.home-page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin-left: 44%;
+    margin-right: 44%;
+    height: 60px;
+    width: 146px;
+    text-align: center;
+}
+.nav {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding-left: 100px;
+}
+.nav ul {
+  display: flex;
+  float: left;
+  top: 20px;
+  left: 100px;
+  display: block;
+  padding: 8px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+  display: visible;
+}
+.menu {
+    margin-right: 20px;
+    display: flex;
+}
+
+.home-page-intro-box {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    /*/Users/Amar/Desktop/devMountain/Angular/Angular_Day_1/assets/img/star-bkgrnd.jpg*/
+    background-image: url('../img/star-bkgrnd.jpg');
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+.home-page-intro-box img {
+  z-index: -10;
+}
+
+.intro-header-text {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: goldenrod;
+}
+
+.intro-text {
+    margin-bottom: 15px;
+    color: goldenrod;
+    font-size: 18px;
+}
+.intro-button {
+  font-size: 18px;
+  background-color: #ffae1c;
+  border: 1px solid #ffae1c;
+  color: #fff;
+  border-radius: 40px;
+  padding: 15px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.intro-button a {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  font-weight: 600px;
+}
+.why-js {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background: #c0ecf4;
+    padding-bottom: 20px;
+    padding-top: 0;
+    padding-top: 20px;
+  }
+}
+#why {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.how-jedi {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.jedi-content {
+  text-align: center;
+  width: 30%;
+  height: 230px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 40px 10px;
+  padding: 0 1%;
+  float: left;
+}
+.jedi-content-icon {
+  position: relative;
+  bottom: 30px;
+  height: 80px;
+  width: 80px;
+}
+.jedi-content-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+hr {
+  width: 100%;
+}
+.jedi-button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #44cc37;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  border: 1px solid lightgray;
+}
+
+.jedi-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.jedi-button a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  font-weight: 600px;
+  font-size: 15px;
+}
+.jedi-content p {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.the-path {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background: lightgreen;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.jedi-content {
+  text-align: center;
+  width: 30%;
+  height: 230px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 40px 10px;
+  padding: 0 1%;
+  float: left;
+}
+
+.the-way {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background: goldenrod;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.price-title {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.pricing-plans {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.price {
+  font-size: 40px;
+  color: white;
+}
+.free {
+  width: 50%;
+  background: linear-gradient(#f68a2e,#f25852);
+}
+.monthly {
+  width: 50%;
+  background: #4C4CFF;
+}
+.pricing-button {
+  font-size: 18px;
+  background-color: #ffae1c;
+  border: 1px solid #ffae1c;
+  color: #fff;
+  border-radius: 40px;
+  padding: 15px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.pricing-button a {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  font-weight: 600px;
+}
+ol {
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
+li {
+  padding: 5px;
+}
+footer {
+  width: 100%;
+  background: #2d3033;
+  height: 250px;
+}
+.footer-left {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+@media (min-width: 800px) {
+  .nav ul {
+    display: none;
+  }
+  .jedi-content {
+    flex-direction: column;
+  }
+}
+
+/*@media(min-width: 700px) {
+   .home-page-intro-box {
+      background-image: url('./assets/img/star-bkgrnd.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+       .jedi-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+}*/
